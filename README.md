@@ -1,4 +1,5 @@
-# Scale Efficient Training for Large Datasets
+<!-- # Scale Efficient Training for Large Datasets -->
+<h2 align="center">Scale Efficient Training for Large Datasets</h2>
 <p align="center"><b>CVPR 2025</b> | <a href="https://github.com/mrazhou/SeTa">[Paper]</a> | <a href="https://github.com/mrazhou/SeTa">[Code]</a> </p>
 
 > *Author: Qing Zhou, Junyu Gao, Qi Wang*
@@ -7,10 +8,9 @@
 
 > Support pruning methods: **Random, InfoBatch, and SeTa**.
 
-<div style="text-align: center;">
-    <img src="./assets/overall.png" alt="SeTa" width="80%">
-</div>
-
+<p align="center">
+  <img src="./assets/overall.png" alt="SeTa" width="80%">
+</p>
 
 
 ### Installation
