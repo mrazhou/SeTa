@@ -47,9 +47,9 @@ for epoch in range(args.epochs):
 In this repository, we provide two examples to demonstrate the usage of SeTa. 
 **CIFAR10/CIFAR100 (support resnet18/50/101) and ImageNet (support various CNNs/Transformers/Mamba)** are used as the datasets.
 
-- CIFAR10/CIFAR100
+- CIFAR10/CIFAR100 (*for exploratory research.*)
 ```bash
-# For lossless pruning
+# For lossless pruning with SeTa
 bash scripts/cifar.sh SeTa 0.1 5 0.9
 
 # For InfoBatch
@@ -63,7 +63,7 @@ bash scripts/cifar.sh SeTa 0 1 1
 ```
 
 
-- ImageNet
+- ImageNet (*for large-scale and cross-architecture comprehensive validation..*)
 ```bash
 # For lossless pruning
 bash scripts/imagenet.sh
