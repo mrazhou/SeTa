@@ -1,6 +1,6 @@
 <!-- # Scale Efficient Training for Large Datasets -->
 <h2 align="center">Scale Efficient Training for Large Datasets</h2>
-<p align="center"><b>CVPR 2025</b> | <a href="https://github.com/mrazhou/SeTa">[Paper]</a> | <a href="https://github.com/mrazhou/SeTa">[Code]</a> </p>
+<p align="center"><b>CVPR 2025</b> | <a href="https://arxiv.org/pdf/2503.13385">[Paper]</a> | <a href="https://github.com/mrazhou/SeTa">[Code]</a> </p>
 
 > *Author: Qing Zhou, Junyu Gao, Qi Wang*
 
@@ -65,7 +65,7 @@ bash scripts/cifar.sh SeTa 0 1 1
 
 - ImageNet (*for large-scale and cross-architecture comprehensive validation.*)
 ```bash
-# For lossless pruning
+# For lossless pruning with SeTa
 bash scripts/imagenet.sh
 
 # For CNNs
